@@ -1,6 +1,6 @@
 package readFile
 
-import (
+import ( 
 	"bufio"
     "fmt"
     "io"
