@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.comadvent01/readFile"
+	"github.com/CodexNine/advent-of-code/tree/main/day-1/pkg/readFile"
 )
 
 func main() {
