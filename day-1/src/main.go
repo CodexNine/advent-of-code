@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"advent01/echo"
+	"github.comadvent01/readFile"
 )
 
 func main() {
-	
+	sonarScan := readFile.ReadInts("sonar-data.txt")
 }
