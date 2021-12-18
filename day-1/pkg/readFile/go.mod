@@ -1,3 +1,3 @@
-module advent01/readFile
+module readFile
 
 go 1.17

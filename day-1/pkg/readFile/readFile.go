@@ -1,4 +1,4 @@
-package advent01/readFile
+package readFile
 
 import (
 	"bufio"
