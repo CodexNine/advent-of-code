@@ -7,4 +7,5 @@ import (
 
 func main() {
 	sonarScan := readFile.ReadInts("sonar-data.txt")
+	fmt.Println(sonarScan)
 }
