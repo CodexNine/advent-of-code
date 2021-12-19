@@ -2,11 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/CodexNine/advent-of-code/day-1/src/pkg/readFile"
-	// "rsc.io/quote"
+	"readFile"
+	"checkNums"
 )
 
 func main() {
-	// readFile.Test()
-	fmt.Println(readFile.Test())
+	fileName := "./data/sonar-data.txt"
+	sonarData := readFile.Read(fileName)
+	
+	fmt.Printf("%d", checkNums.GroupNum(sonarData))
+
 }
